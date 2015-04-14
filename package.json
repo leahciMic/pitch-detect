@@ -1,0 +1,22 @@
+{
+  "name": "pitch-detect",
+  "version": "0.0.1",
+  "description": "Allows you to detect pitch on a stream using",
+  "main": "dist/pitch-detect.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leahcimic/pitch-detect"
+  },
+  "devDependencies": {
+    "babel": "^5.1.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "node ./node_modules/babel/bin/babel src/ --out-dir dist/"
+  },
+  "author": {
+    "name": "Michael Leaney",
+    "email": "leahcimic@gmail.com"
+  },
+  "license": "ISC"
+}
